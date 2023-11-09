@@ -1,0 +1,149 @@
+/*
+cmd+shift+r
+*/
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #F2F2F2;  
+    color: #2C282A;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    height: auto;
+}
+nav {
+    width: 100vw;
+    height: 50px;
+    background-color: #675476;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+}
+nav > a {
+    color: #F2F2F2;
+    text-decoration: none;
+    padding-right: 5%;
+    text-transform: uppercase;
+}
+nav > a:hover { 
+    color: #93FFE5;
+}
+h2, h3 {
+    color: #675476;
+    margin-left: 10vw;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+h2:nth-of-type(1) {
+    padding-top: 70px;
+}
+.h3unique {
+    margin-top: -90px;
+    padding-bottom: 20px;
+}
+.h2unique {
+    margin-top: -80px;
+}
+.h2login {
+    margin-bottom: 20px;
+}
+#h2ProductInfo {
+    padding-bottom: 35px;
+}
+#h2SubmitOrder {
+    padding-top: 20px;
+}
+.h2DeleteItem {
+    padding-top: 20px;
+    margin-bottom: -20px;
+}
+.productimg {
+    width: 150px;
+    margin: 0 auto;
+}
+.table {
+    margin-left: 10vw;
+    width: 50vw;
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0px 4px 20px -15px #80787D;
+    text-align: center;
+}
+.table:last-of-type {
+    margin-bottom: 100px;
+}
+
+.tableheader {
+    min-width: 170px;
+    height: 30px;
+    color: #675476;
+    text-transform: uppercase;
+    font-size: 18px;
+    padding-bottom: 20px;
+
+}
+.tableMainPage {
+    margin-bottom: 10vh;
+    margin-top: 4vh;
+}
+.forms {
+    margin-left: 10vw;
+}
+.forms > h3, .forms > h2 {
+    margin-left: 0vw;
+}
+.forms > select {
+    margin-right: 5px;
+    height: 3vh;
+    width: 3vw;
+}
+input[type=submit], .logoutBtn, .checkoutBtns, .loginFormsBtns {
+    padding:5px 15px; 
+    background-color:#675476;
+    color: #F2F2F2;
+    border: none;
+    border-radius: 15px;
+    height: 30px;
+    margin-top: 25px;
+    cursor: pointer;
+    font-size: 16px;
+}
+input[type=submit]:hover , .logoutBtn:hover, .checkoutBtns:hover, .loginFormsBtns:hover {
+    background-color:#93FFE5;
+    color: #2C282A;
+}
+.guest {
+    margin-bottom: 50px;
+}
+.registerBtn, .loginBtn {
+    margin-bottom: 50px;
+}
+.logoutBtn {
+    margin-left: 10vw;
+}
+.checkoutBtns {
+    margin-left: 10vw;
+}
+.confirmCOBtn {
+    margin-bottom: 100px;
+}
+
+footer {
+    background-color: #675476;
+    color: #F2F2F2;
+    height: 70px;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
